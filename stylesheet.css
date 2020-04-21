@@ -1,5 +1,5 @@
 /* Mobile Devices*/
-@media only screen and (min-width: 425px) {
+@media (min-width: 576px) and (max-width: 767.99px) {
 
 
 body
@@ -32,6 +32,57 @@ body
 	text-align: center;
 }
 
+ul.navbar-item 
+{
+	list-style-type: none;
+    width: 37%;
+	padding-left: 10px;
+}
+
+ul li.navbar-item {
+    display: block;
+	
+}
+
+ul .navbar-item  li:hover
+{
+    background-color: #fff;
+	color: black;
+	text-decoration: none;
+	
+}
+
+ul li a, visited.navbar-item  {
+    color: #212121;
+    display: block;
+    padding: 7px;
+	margin-left: -25px;
+	text-align: center;
+
+}
+
+ul li:hover ul.navbar-item  {
+    display: block;
+	padding: 0;
+}
+
+ul ul.navbar-item {
+    display: none;
+    background-color: #E8F5E9;
+    border: 5px solid #C8E6C9;
+    border-top: -7px;
+    margin-left: 180px;
+	text-align: left;
+}
+
+
+a:hover
+{
+	text-decoration: none;
+	color: #212121;
+}
+
+
 /******Header******/
 .content
 {
@@ -47,12 +98,12 @@ body
 div.text
 {
 	font-weight: bold;
-	margin-top: -110px;
-	margin-left: 120px;
-	font-size: 7.3vw;
+	margin-top: -130px;
+	margin-left: 140px;
+	font-size: 7.7vw;
 	text-align: center;
 	font-family: palatino linotype, serif;
-	text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;		
+	text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;	
 }
 
 /******Home and About Us Page******/
@@ -134,21 +185,245 @@ h2.card-header
 	font-size: 31px;
 }
 
+
+/******Litter Page******/
+h1.card-title-la
+{
+	font-size: 34px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3.head3
+{
+	text-align: center;
+	font-size: 25px;
+}
+
+p.paras
+{
+	padding-left: 27px;
+	padding-right: 40px;
+	text-align: justify;
+}
+
+.para2
+{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+hr
+{
+	border: 1px solid black;
+}
+
+.cardInfo
+{
+	width: 70%;
+	margin: 60px auto;
+	margin-top: 7%;
+	margin-left: 14%;
+	background-color: #C8E6C9;
+	border: 1px inset; 
+	border-color: black;
+}
+
+.head4
+{
+	text-align: center;
+	font-size: 33px;
+}
+
+p.paras1
+{
+	padding-left: 3px;
+	padding-right: 2px;
+	margin-top: 20px;
+	color: red;
+	text-align: center;
+}
+
+.cardInfo2
+{
+	width: 70%;
+	margin: 60px auto;
+	margin-top: 7%;
+	margin-left: 14%;
+	background-color: #C8E6C9;
+	border: 1px inset; 
+	border-color: black;
+}
+
+p.paras2
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.myButton {
+	background-color: #74ad5a;
+	border-radius: 8px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 13px 25px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #3d768a;
+	margin-left: 45px;
+	margin-right: -30px;
+	margin-bottom: 30px;
+}
+.myButton:hover {
+	background-color: #68a54b;
+}
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+
+p.paras3
+{
+	padding-left: 15px;
+	padding-right: 14px;
+	text-align: center;
+}
+
+.photo1
+{
+	margin: 60px auto;
+	margin-top: 7%;
+	margin-left: 20%;
+	border-radius: 20px;
+	width: 340px;
+	height: 230px;
+}
+
+
+/******Parent and Info Page******/
+.box
+{
+	margin-top: 40px;
+	margin-left: 25px;
+	transform: translate(-50% -50%);
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #C8E6C9;
+	border-radius: 4px;
+	display: flex;
+}
+
+.box .imgBx
+{
+	width: 150px;
+	flex: 0 0 150px;
+}
+
+.box .imgBx img
+{
+	max-width: 100%;
+}
+
+.box .card-content
+{
+	padding-left: 20px;
+}
+
+.box .card-content h4
+{
+	margin: 0;
+	padding-left: 0;
+	font-size: 22px;
+}
+
+.box .card-content p
+{
+	margin: 0;
+	padding: 10px 0 0;
+}
+
+h1.header-title1
+{
+	font-family: Bookman Old Style;
+	font-size: 35px;
+	text-align: center;
+	color: white;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	border: 2px solid black;
+	width: 80%;
+	border-width: 3px;
+	padding: 15px;
+	margin-left: 65px;
+	margin-top: 50px;
+	
+}
+
+h2.header-title2
+{
+	font-family: Bookman Old Style;
+	font-size: 33px;
+	text-align: center;
+	color: white;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	margin-top: 80px;
+}
+
+/******Adoption Page******/
+.card-text-1
+{
+	padding: 0 10px 0 8px;
+	text-align: left;
+}
+
+div.card-body
+{
+	padding: 25px;
+}
+
+div.doodlePhotos img
+{
+	margin: -25px 0 18px 80px;
+	padding: 20px;
+	width: 50vw;
+}
+
+
+/******Health Page******/
+
+
+.containerDiv
+{
+
+	margin: 70px 75px;
+	position: relative;
+}
+
+.containerDiv iframe
+{
+	overflow: hidden;
+	width: 560px;
+	height: 1550px;
+}
+
+
 /*****Gallery*****/
 .photo-title h2
 {
 	padding-top: 20px;
-	font-size: 16px;
-	margin-left: 18px;
+	font-size: 24px;
 	font-family: arial;
 	font-weight: bold;
 	width: 100%;
+	text-align: center;
 }
 
 /******Contact Page******/
 .social-icons-list svg
 {
-	margin-left: -24px;
 	margin-top: 9px;
 }
 
@@ -161,27 +436,26 @@ h2.card-header
 
 .social-icons-list ul
 {
-	margin-left: 15px;
 	padding: 15px;
-	text-align: left;
+	text-align: center;
 }
 
 .social-icons-list ul li
 {
 	display: inline-block;
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	text-align: center;
 	background: blue;
 	border-radius: 100%;
-	margin: 0px 8px;
+	margin: 0px 10px;
 }
 
 .social-icons-list ul li a
 {
 	display: block;
 	color: white;
-	font-size: 30px;
+	font-size: 45px;
 }
 
 .social-icons-list ul li a i
@@ -191,7 +465,7 @@ h2.card-header
 
 .social-icons-list ul li:nth-child(1)
 {
-	background: #673AB7 ;
+	background: #673AB7;
 }
 
 .social-icons-list ul li:nth-child(2)
@@ -212,17 +486,16 @@ h2.card-header
 
 p.para
 {
-	padding: 3px;
-	font-size: 16px;
+	padding: 5px;
+	font-size: 18px;
 	text-align: left;
-	text-justify: word-character;
 }
 
 .contact-card-body img
 {
-	width: 200px; 
-	margin-top: 50px;
-	margin-left: 15%;
+	width: 230px; 
+	margin-top: 15px;
+	margin-left: 27%;
 }
 
 /******Footer******/
@@ -235,7 +508,7 @@ hr
 
 .photo img
 {
-	width: 20vw;
+	width: 18vw;
 	margin-top: 3%;
 	margin-bottom: 2%;	
 }
@@ -252,8 +525,8 @@ footer
 
 footer p  
 {
-	font-size: 3vw;
-	padding: -10px;
+	font-size: 2.3vw;
+	padding: 5px;
 }
 
 footer a {
@@ -276,155 +549,13 @@ footer svg.svg-inline--fa:hover {
   color: black;
 }
 
-
-}
-
-
-@media only screen and (min-width: 576px) {
-
-body
-{
-    overflow-x: hidden;
-}
-
-.content
-{
-	margin-bottom: 40px;
-}
-
-.content img
-{
-	width: 19vw;
-}
-
-div.text
-{
-	margin-top: -89px;
-	margin-left: 133px;
-	font-size: 5.5vw;
-	text-align: center;
-	font-family: palatino linotype, serif;
-	text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
-	font-weight: bold;	
-	white-space: nowrap;
-}
-
-.column-1 img {
-	
-	margin-left: 70%;
-	margin-bottom: 9%;
-	width: 43vw;
-	border-radius: 10%;
-}
-
-
-.column-2 img {
-	
-	margin-left: -30%;
-	margin-top: 120%;
-	width: 43vw;
-	border-radius: 10%;
-}
-
-/*****Gallery*****/
-.photo-title h2
-{
-	padding-top: 20px;
-	margin-left: 22px;
-	font-size: 19px;
-	font-family: arial;
-	font-weight: bold;
-	width: 100%;
-}
-
-/******Contact Page******/
-.social-icons-list svg
-{
-	margin-left: -24px;
-	margin-top: 12px;
-}
-
-.social-icons-list
-{
-	width: 100%;
-	height: auto;
-	margin: auto;
-}
-
-.social-icons-list ul
-{
-	margin-left: 50px;
-	padding: 15px;
-	text-align: left;
-}
-
-.social-icons-list ul li
-{
-	display: inline-block;
-	width: 70px;
-	height: 70px;
-	text-align: center;
-	background: blue;
-	border-radius: 100%;
-	margin: 0px 12px;
-}
-
-.social-icons-list ul li a
-{
-	display: block;
-	color: white;
-	font-size: 40px;
-}
-
-
-.social-icons-list ul li a i
-{
-	line-height: 100px;
-}
-
-.social-icons-list ul li:nth-child(1)
-{
-	background: #673AB7 ;
-}
-
-.social-icons-list ul li:nth-child(2)
-{
-	background: #EC407A;
-}
-
-.social-icons-list ul li:nth-child(3)
-{
-	background: #3b5999
-}
-
-.contact-card-body
-{
-	margin: 30px 0; 
-	padding: 12px;
-}
-
-p.para
-{
-	padding: 5px;
-	font-size: 16px;
-	white-space: none;
-}
-
-img.contact-card-body 
-{
-	width: 20vw; 
-	margin-bottom: -5px;
-	margin-left: 30%;
-}
-
 }
 
 
 /**********************************************/
 
 /* Tablet Devices*/
-@media only screen and (min-width: 768px) {
-
+@media (min-width: 768px) and (max-width: 991.98px) {
 
 body
 {
@@ -461,28 +592,78 @@ button.navbar-toggler
 	text-align: center;
 }
 
+ul.navbar-item 
+{
+	list-style-type: none;
+    width: 27%;
+	padding-left: 10px;
+}
+
+ul li.navbar-item {
+    display: block;
+	
+}
+
+ul .navbar-item  li:hover
+{
+    background-color: #fff;
+	color: black;
+	text-decoration: none;
+	
+}
+
+ul li a, visited.navbar-item  {
+    color: #212121;
+    display: block;
+    padding: 7px;
+	margin-left: -25px;
+	text-align: center;
+
+}
+
+ul li:hover ul.navbar-item  {
+    display: block;
+	padding: 0;
+}
+
+ul ul.navbar-item {
+    display: none;
+    background-color: #E8F5E9;
+    border: 5px solid #C8E6C9;
+    border-top: -7px;
+    margin-left: 250px;
+	text-align: left;
+}
+
+
+a:hover
+{
+	text-decoration: none;
+	color: #212121;
+}
+
+
 /******header******/
 .content
 {
-	margin-bottom: 35px;
+	margin-bottom: 10px;
 }
 
 .content img
 {
-	width: 18vw;
+	width: 28vw;
 	margin-top: 12px;;
 }
 
 div.text
 {
-	margin-top: -100px;
+	margin-top: -165px;
 	margin-left: 140px;
-	font-size: 5.6vw;
+	font-size: 55px;
 	text-align: center;
 	font-family: palatino linotype, serif;
 	text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
 	font-weight: bold;	
-	white-space: nowrap;
 }
 
 /******Home and About Page******/
@@ -520,7 +701,7 @@ div.text
 .dogPic3 img
 {
 	max-width: 50%;
-	margin-left: 20%;
+	margin-left: 25%;
 	border-radius: 5%;
 }
 
@@ -556,7 +737,7 @@ p
 {
 	font-size: 20px;
 	font-family: arial;
-	text-indent: 25px;
+	
 }
 
 li
@@ -587,12 +768,241 @@ hr
 	margin-bottom: 2%;	
 }
 
+/******Litter Page******/
+h1.card-title-la
+{
+	font-size: 34px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3.head3
+{
+	text-align: center;
+	font-size: 25px;
+}
+
+p.paras
+{
+	padding-left: 27px;
+	padding-right: 40px;
+	text-align: justify;
+}
+
+.para2
+{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+hr
+{
+	border: 1px solid black;
+}
+
+.cardInfo
+{
+	width: 70%;
+	margin: 60px auto;
+	margin-top: 7%;
+	margin-left: 14%;
+	background-color: #C8E6C9;
+	border: 1px inset; 
+	border-color: black;
+}
+
+.head4
+{
+	text-align: center;
+	font-size: 33px;
+}
+
+p.paras1
+{
+	padding-left: 3px;
+	padding-right: 2px;
+	margin-top: 20px;
+	color: red;
+	text-align: center;
+}
+
+.cardInfo2
+{
+	width: 70%;
+	margin: 60px auto;
+	margin-top: 7%;
+	margin-left: 14%;
+	background-color: #C8E6C9;
+	border: 1px inset; 
+	border-color: black;
+}
+
+p.paras2
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.myButton {
+	background-color: #74ad5a;
+	border-radius: 8px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 13px 25px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #3d768a;
+	margin-left: 45px;
+	margin-right: -30px;
+	margin-bottom: 30px;
+}
+.myButton:hover {
+	background-color: #68a54b;
+}
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+
+p.paras3
+{
+	padding-left: 15px;
+	padding-right: 14px;
+	text-align: center;
+}
+
+.photo1
+{
+	margin: 60px auto;
+	margin-top: 7%;
+	margin-left: 25%;
+	border-radius: 20px;
+	width: 400px;
+	height: 280px;
+}
+
+
+/******Parent and Info Page******/
+.box
+{
+	margin-top: 40px;
+	margin-left: 80px;
+	transform: translate(-50% -50%);
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #C8E6C9;
+	border-radius: 4px;
+	display: flex;
+}
+
+.box .imgBx
+{
+	width: 150px;
+	flex: 0 0 150px;
+}
+
+.box .imgBx img
+{
+	max-width: 100%;
+}
+
+.box .card-content
+{
+	padding-left: 20px;
+}
+
+.box .card-content h4
+{
+	margin: 0;
+	padding-left: 0;
+	font-size: 22px;
+}
+
+.box .card-content p
+{
+	margin: 0;
+	padding: 10px 0 0;
+	font-size: 18px;
+}
+
+h1.header-title1
+{
+	font-family: Bookman Old Style;
+	font-size: 45px;
+	text-align: center;
+	color: white;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	border: 2px solid black;
+	width: 85%;
+	border-width: 3px;
+	padding: 15px;
+	margin-left: 65px;
+	margin-top: 50px;
+	
+}
+
+h2.header-title2
+{
+	font-family: Bookman Old Style;
+	font-size: 33px;
+	text-align: center;
+	color: white;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	margin-top: 80px;
+}
+
+/******Adoption Page******/
+h1.card-title
+{
+	font-size: 45px;
+}
+
+.card-text-1
+{
+	padding: 0 15px 0 15px;
+	text-align: left;
+}
+
+div.card-body
+{
+	padding: 25px;
+}
+
+div.doodlePhotos img
+{
+	margin: -25px 0 18px 130px;
+	padding: 20px;
+	width: 55vw;
+}
+
+
+/******Health Page******/
+
+
+.containerDiv
+{
+
+	margin: 70px 150px;
+}
+
+.containerDiv iframe
+{
+	overflow: hidden;
+	width: 560px;
+	height: 1550px;
+}
+
+
 /*****Gallery*****/
 .photo-title h2
 {
 	padding-top: 20px;
-	margin-left: 110px;
 	font-size: 26px;
+	text-align: center;
 	font-family: arial;
 	font-weight: bold;
 	width: 100%;
@@ -601,7 +1011,7 @@ hr
 /******Contact Page******/
 .social-icons-list svg
 {
-	margin-left: -24px;
+	text-align: center;
 	margin-top: 12px;
 }
 
@@ -614,27 +1024,27 @@ hr
 
 .social-icons-list ul
 {
-	margin-left: 95px;
-	padding: 15px;
-	text-align: left;
+	margin-left: 30px;
+	padding: 25px;
+	text-align: center;
 }
 
 .social-icons-list ul li
 {
 	display: inline-block;
-	width: 70px;
-	height: 70px;
+	width: 90px;
+	height: 90px;
 	text-align: center;
 	background: blue;
 	border-radius: 100%;
-	margin: 0px 12px;
+	margin: 0px 15px;
 }
 
 .social-icons-list ul li a
 {
 	display: block;
 	color: white;
-	font-size: 40px;
+	font-size: 48px;
 }
 
 .social-icons-list ul li a i
@@ -660,20 +1070,22 @@ hr
 .contact-card-body
 {
 	margin: 30px 0; 
+	padding: 15px;
 }
 
 p.para
 {
-	font-size: 16px;
+	font-size: 24px;
+	text-align: center;
 }
 
 .contact-card-body img
 {
-	width: 20vw; 
+	width: 33vw; 
 	padding: 10px;
-	margin-top: -200px;
-	margin-right: 5px;
-	float: right;
+	margin-top: 20px;
+	margin-left: 230px;
+	
 }
 
 /******Footer******/
@@ -689,7 +1101,7 @@ footer
 
 footer p  
 {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 footer a {
@@ -712,208 +1124,14 @@ footer svg.svg-inline--fa:hover {
   color: black;
 }
 
-
 }
-
 
 /************************************************/
 
-@media (min-width: 1024px) {
-
-/*****Gallery*****/
-.photo-title h2
-{
-	padding-top: 20px;
-	margin-left: 110px;
-	font-family: arial;
-	font-size: 28px;
-	font-weight: bold;
-	width: 100%;
-}
-
-/****contact*****/
-.contact-card-body
-{
-	margin-bottom: -3px;
-}
-
-.contact-card-body img
-{
-	width: 23vw; 
-	padding: 14px;
-	margin-top: -180px;
-	margin-right: 20px;
-	float: right;
-}
-
-}
-
-@media (min-width: 1200px) {
 
 
-body
-{
-	background-color: #2E8B57;
-    overflow-x: hidden;
-}
-
-.navbar ul
-{
-	margin-left: 15%;
-	
-}
-
-
-.content img
-{
-	width: 17vw;
-	margin-top: 12px;;
-}
-
-div.text
-{
-	margin-top: -118px;
-	margin-left: 160px;
-	font-size: 5.6vw;
-	text-align: center;
-	font-family: palatino linotype, serif;
-	text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
-	font-weight: bold;	
-	white-space: nowrap;
-}
-
-.column-1 img {
-	
-	margin-left: 35%;
-	margin-bottom: 9%;
-	width: 35vw;
-	border-radius: 10%;
-}
-
-
-.column-2 img {
-	
-	margin-left: 55%;
-	margin-top: auto;
-	width: 35vw;
-	border-radius: 10%;
-}
-
-#carouselExampleIndicators
-{
-	max-width: 67%;
-	margin-left: 17%;
-	padding: 50px;
-}
-
-/*****Gallery*****/
-.photo-title h2
-{
-	padding-top: 20px;
-	margin-left: 200px;
-	font-family: arial;
-	font-weight: bold;
-	width: 100%;
-}
-
-
-/******Contact Page******/
-.social-icons-list svg
-{
-	margin-left: -24px;
-	margin-top: 14px;
-}
-
-.social-icons-list
-{
-	width: 100%;
-	height: auto;
-	margin: auto;
-}
-
-.social-icons-list ul
-{
-	margin-left: 100px;
-	padding: 15px;
-	text-align: left;
-}
-
-.social-icons-list ul li
-{
-	display: inline-block;
-	width: 80px;
-	height: 80px;
-	text-align: center;
-	background: blue;
-	border-radius: 100%;
-	margin: 0px 20px;
-}
-
-.social-icons-list ul li a
-{
-	display: block;
-	color: white;
-	font-size: 50px;
-}
-
-.social-icons-list ul li a i
-{
-	line-height: 100px;
-}
-
-.social-icons-list ul li:nth-child(1)
-{
-	background: #673AB7 ;
-}
-
-.social-icons-list ul li:nth-child(2)
-{
-	background: #EC407A;
-}
-
-.social-icons-list ul li:nth-child(3)
-{
-	background: #3b5999
-}
-
-.contact-card-body
-{
-	margin: 50px 0; 
-	margin-bottom: -3px;
-}
-
-p.para
-{
-	font-size: 20px;
-}
-
-.contact-card-body img
-{
-	width: 23vw; 
-	padding: 14px;
-	margin-top: -200px;
-	margin-right: 50px;
-	float: right;
-}
-
-/*****footer*****/
-footer p  
-{
-	font-size: 18px;
-}
-
-
-footer svg.svg-inline--fa {
-  font-size: 33px;
-
-}
-
-}
-
-
-/* Large devices (desktops, 1440px and up) */
-@media (min-width: 1440px) {
-
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 
 body
 {
@@ -925,7 +1143,7 @@ body
 nav.navbar
 {
 	background-color: #C8E6C9;
-	
+	margin-top: 30px;
 }
 
 .nav-item
@@ -935,8 +1153,57 @@ nav.navbar
 
 .navbar ul
 {
-	margin-left: 21%;
+	margin-left: 18%;
 	
+}
+
+ul.navbar-item 
+{
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 50px;
+}
+
+ul li.navbar-item {
+    display: inline-block;
+}
+
+ul .navbar-item  li:hover{
+    background-color: #fff;
+	color: black;
+	text-decoration: none;
+	
+}
+
+ul li a, visited.navbar-item  {
+    color: #212121;
+    display: block;
+    padding: 8px;
+
+}
+
+ul li:hover ul.navbar-item  {
+    display: block;
+}
+ul ul.navbar-item {
+    display: none;
+    position: absolute;
+    background-color: #E8F5E9;
+    border: 5px solid #C8E6C9;
+    border-top: -7px;
+    margin-left: 30px;
+	text-align: left;
+}
+ul ul li a.navbar-item {
+    display: block;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: #212121;
 }
 
 /******Header******/
@@ -947,9 +1214,9 @@ nav.navbar
 
 div.text
 {
-	margin-top: -145px;
+	margin-top: -113px;
 	margin-left: 160px;
-	font-size: 5.5vw;
+	font-size: 5.3vw;
 	text-align: center;
 	font-family: palatino linotype, serif;
 	text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
@@ -959,10 +1226,10 @@ div.text
 /******Home and About Us Page******/
 .column-1 img 
 {
-	margin-left: 90%;
+	margin-left: 80%;
 	margin-top: 10%;
 	width: 25vw;
-	border-radius: 10%;
+	border-radius: 5%;
 }
 
 .column-2 img 
@@ -970,7 +1237,7 @@ div.text
 	margin-left: 120%;
 	margin-top: 10%;
 	width: 25vw;
-	border-radius: 10%;
+	border-radius: 5%;
 }
 
 .row:: after {
@@ -1037,7 +1304,836 @@ p
 {
 	font-size: 20px;
 	font-family: arial;
+	
+}
+
+
+/******Litter Page******/
+h1.card-title-la
+{
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3.head3
+{
+	text-align: center;
+}
+
+p.paras
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: justify;
+}
+
+p.para2
+{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+span
+{
+	text-decoration: underline;
+	margin-left: 200px;
+	font-size: 25px;
+}
+
+.cardInfo
+{
+	width: 36%;
+	margin: 60px auto;
+	margin-top: 7%;
+	margin-left: 11%;
+	background-color: #C8E6C9;
+	border: 1px inset; 
+	border-color: black;
+}
+
+.head4
+{
+	text-align: center;
+	font-size: 35px;
+}
+
+p.paras1
+{
+	padding-left: 40px;
+	padding-right: 40px;
+	color: red;
+	text-align: center;
+}
+
+.cardInfo2
+{
+	width: 36%;
+	margin-top: -12.5%;
+	margin-bottom: 10%;
+	margin-left: 53%;
+	background-color: #C8E6C9;
+	border: 1px inset; 
+	border-color: black;
+}
+
+p.paras2
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+}
+
+.myButton {
+	background-color: #74ad5a;
+	border-radius: 8px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 13px 25px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #3d768a;
+	margin-left: 45px;
+	margin-right: -30px;
+	margin-bottom: 30px;
+}
+.myButton:hover {
+	background-color: #68a54b;
+}
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+
+p.paras3
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+}
+
+.photo1
+{
+	margin-top: -700px;
+	margin-left: 120px;
+	border-radius: 20px;
+	width: 440px;
+	height: 330px;
+}
+
+
+/******Parent and Info Page******/
+.box
+{
+	margin-top: 40px;
+	margin-left: 200px;
+	transform: translate(-50% -50%);
+	width: 800px;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #C8E6C9;
+	border-radius: 4px;
+	display: flex;
+}
+
+.box .imgBx
+{
+	width: 150px;
+	flex: 0 0 150px;
+}
+
+.box .imgBx img
+{
+	max-width: 150%;
+}
+
+.box .card-content
+{
+	padding-left: 20px;
+}
+
+.box .card-content h4
+{
+	margin-left: 90px;
+	padding-left: 0;
+	font-size: 25px;
+}
+
+.box .card-content p
+{
+	margin-left: 90px;
+	padding: 10px 0 0;
+	font-size: 20px;
+}
+
+h1.header-title1
+{
+	font-family: Bookman Old Style;
+	font-size: 58px;
+	text-align: center;
+	color: white;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	border: 2px solid black;
+	width: 70%;
+	border-width: 3px;
+	padding: 15px;
+	margin-left: 180px;
+	margin-top: 50px;
+	
+}
+
+h2.header-title2
+{
+	font-family: Bookman Old Style;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	margin-top: 80px;
+}
+
+/******Adoption Page******/
+.card-text-1
+{
+	padding-left: 75px;
+	padding-right: 75px;
+	text-align: left;
+	text-align: justify;
+}
+
+div.card-body
+{
+	padding: 25px;
+}
+
+div.doodlePhotos
+{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+
+/******Health Page******/
+h2
+{
+	text-align: left;
+}
+
+#inlineFrameExample
+{
+	border: none;
+	margin: -6px -20px;
+}
+div.heathInfo
+{
+	overflow: hidden;
+	width: 815px;	
+	height: 2305px;
+	margin: 0 auto;	
+	background-color: #fff;	
+	text-align: center;	
+	margin-top: 70px;
+	margin-bottom: 80px;
+	border-radius: 25px;
+}
+
+
+/******Photo Page******/
+.photo-title h2
+{
+	padding-top: 20px;
+	margin-left: 300px;
+	font-family: arial;
+	font-size: 35px;
+	font-weight: bold;
+	width: 100%;
+}
+
+li
+{
+	font-size: 18px;
+	font-family: arial;
 	text-indent: 25px;
+}
+
+
+#carouselExampleIndicators
+{
+	max-width: 67%;
+	margin-left: 17%;
+	padding: 20px;
+}
+
+ol.carousel-indicators
+{
+	padding: 50px;
+}
+
+
+.carousel-control-prev-icon
+{
+	padding: 12px;
+	margin: 30px;
+}
+
+.carousel-control-next-icon
+{
+	padding: 12px;
+	margin: 30px;
+}
+
+
+/******Contact Page******/
+.social-icons-list svg
+{
+	margin-left: -24px;
+	margin-top: 13px;
+}
+
+.social-icons-list
+{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.social-icons-list ul
+{
+	margin-left: 170px;
+	padding: 15px;
+	text-align: left;
+}
+
+.social-icons-list ul li
+{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	text-align: center;
+	background: blue;
+	border-radius: 100%;
+	margin: 0px 20px;
+}
+
+.social-icons-list ul li a
+{
+	display: block;
+	color: white;
+	font-size: 50px;
+}
+
+.social-icons-list ul li a i
+{
+	line-height: 100px;
+}
+
+.social-icons-list ul li:nth-child(1)
+{
+	background: #673AB7 ;
+}
+
+.social-icons-list ul li:nth-child(2)
+{
+	background: #EC407A;
+}
+
+.social-icons-list ul li:nth-child(3)
+{
+	background: #3b5999
+}
+
+.contact-card-body
+{
+	margin: 30px 0; 
+	margin-bottom: -3px;
+}
+
+p.para
+{
+	font-size: 20px;
+	margin-left: 15px;
+	padding: 20px;
+}
+
+.contact-card-body img
+{
+	width: 17vw; 
+	padding: 12px;
+	margin-top: -320px;
+	margin-right: 30px;
+	float: right;
+}
+
+
+/******Footer******/
+hr 
+{
+	
+	margin: auto;
+	width: 80%
+}
+
+.photo img
+{
+	width: 140px; 
+	height: 140px; 
+	margin-top: -160px;	
+	margin-left: 950px;
+}
+
+footer 
+{
+	clear: both;
+	padding: 0;
+	margin-top: 50px;
+    color: white;
+    text-align: center;
+	font-family: arial;
+	
+}
+
+footer p  
+{
+	font-size: 18px;
+}
+
+footer a {
+  color: white;
+  margin: 2px;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 30px;
+
+}
+
+footer a:hover
+{
+	color: black;
+	text-decoration: none;
+}
+
+footer svg.svg-inline--fa:hover {
+  color: black;
+}
+
+
+}
+
+
+/* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+body
+{
+	background-color: #2E8B57;
+    overflow-x: hidden;
+}
+
+/******Navbar******/
+nav.navbar
+{
+	background-color: #C8E6C9;
+	margin-top: 25px;
+}
+
+.nav-item
+{
+	font-size: 22px;
+}
+
+.navbar ul
+{
+	margin-left: 21%;
+	
+}
+
+ul.navbar-item 
+{
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 50px;
+}
+
+ul li.navbar-item {
+    display: inline-block;
+}
+
+ul .navbar-item  li:hover{
+    background-color: #fff;
+	color: black;
+	text-decoration: none;
+	
+}
+
+ul li a, visited.navbar-item  {
+    color: #212121;
+    display: block;
+    padding: 8px;
+
+}
+
+ul li:hover ul.navbar-item  {
+    display: block;
+}
+ul ul.navbar-item {
+    display: none;
+    position: absolute;
+    background-color: #E8F5E9;
+    border: 5px solid #C8E6C9;
+    border-top: -7px;
+    margin-left: 30px;
+	text-align: left;
+}
+ul ul li a.navbar-item {
+    display: block;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: #212121;
+}
+
+/******Header******/
+.content img {
+	margin-left: 15px;
+	width: 14vw;
+}
+
+div.text
+{
+	margin-top: -145px;
+	margin-left: 160px;
+	font-size: 5.3vw;
+	text-align: center;
+	font-family: palatino linotype, serif;
+	text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+	font-weight: bold;
+}
+
+/******Home and About Us Page******/
+.column-1 img 
+{
+	margin-left: 80%;
+	margin-top: 10%;
+	width: 25vw;
+	border-radius: 5%;
+}
+
+.column-2 img 
+{
+	margin-left: 120%;
+	margin-top: 10%;
+	width: 25vw;
+	border-radius: 5%;
+}
+
+.row:: after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.dogPic2 img
+{
+	width: 210px;
+	height: 250px;
+	float: right;
+	margin: 8px;
+	border-radius: 5%;
+}
+
+.dogPic3 img
+{
+	width: 440px;
+	height: 225px;
+	margin-left: 27%;
+	border-radius: 5%;
+}
+
+.card
+{
+	width: 78%;
+	margin: 60px auto;
+	background-color: #C8E6C9;
+	border: 1px inset; 
+	border-color: black;
+	margin-top: 7%;
+	
+}
+
+.card-body ul
+{
+	margin-left: -8px;
+	margin-top: 3%;
+}
+
+h1.card-title
+{
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+h2.card-header
+{
+	font-weight: bold;
+	font-size: 33px;
+}
+
+h3.card-title
+{
+	font-size: 27px;
+	font-weight: bold;
+}
+
+p
+{
+	font-size: 20px;
+	font-family: arial;
+	
+}
+
+
+/******Litter Page******/
+h1.card-title-la
+{
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3.head3
+{
+	text-align: center;
+}
+
+p.paras
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: justify;
+}
+
+p.para2
+{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+span
+{
+	text-decoration: underline;
+	margin-left: 200px;
+	font-size: 25px;
+}
+
+.cardInfo
+{
+	width: 36%;
+	margin: 60px auto;
+	margin-top: 7%;
+	margin-left: 11%;
+	background-color: #C8E6C9;
+	border: 1px inset; 
+	border-color: black;
+}
+
+.head4
+{
+	text-align: center;
+	font-size: 35px;
+}
+
+p.paras1
+{
+	padding-left: 40px;
+	padding-right: 40px;
+	color: red;
+	text-align: center;
+}
+
+.cardInfo2
+{
+	width: 36%;
+	margin-top: -12.5%;
+	margin-bottom: 10%;
+	margin-left: 53%;
+	background-color: #C8E6C9;
+	border: 1px inset; 
+	border-color: black;
+}
+
+p.paras2
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+}
+
+p.paras3
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+}
+
+.myButton {
+	background-color: #74ad5a;
+	border-radius: 8px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 13px 25px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #3d768a;
+	margin-left: 45px;
+	margin-right: -30px;
+	margin-bottom: 30px;
+}
+.myButton:hover {
+	background-color: #68a54b;
+}
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+
+.photo1
+{
+	margin-top: -450px;
+	margin-left: 220px;
+	border-radius: 20px;
+	width: 440px;
+	height: 330px;
+}
+
+
+/******Parent and Info Page******/
+.box
+{
+	margin-top: 40px;
+	margin-left: 250px;
+	transform: translate(-50% -50%);
+	width: 1000px;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #C8E6C9;
+	border-radius: 4px;
+	display: flex;
+}
+
+.box .imgBx
+{
+	width: 150px;
+	flex: 0 0 150px;
+}
+
+.box .imgBx img
+{
+	max-width: 150%;
+}
+
+.box .card-content
+{
+	padding-left: 20px;
+}
+
+.box .card-content h4
+{
+	margin-left: 90px;
+	padding-left: 0;
+	font-size: 28px;
+}
+
+.box .card-content p
+{
+	margin-left: 90px;
+	padding: 10px 0 0;
+	font-size: 22px;
+}
+
+h1.header-title1
+{
+	font-family: Bookman Old Style;
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	border: 2px solid black;
+	width: 65%;
+	border-width: 3px;
+	padding: 15px;
+	margin-left: 270px;
+	margin-top: 50px;
+	
+}
+
+h2.header-title2
+{
+	font-family: Bookman Old Style;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	margin-top: 80px;
+}
+
+/******Adoption Page******/
+.card-text-1
+{
+	padding-left: 75px;
+	padding-right: 75px;
+	text-align: left;
+	text-align: justify;
+}
+
+div.card-body
+{
+	padding: 25px;
+}
+
+div.doodlePhotos
+{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+
+/******Health Page******/
+h2
+{
+	text-align: left;
+}
+
+#inlineFrameExample
+{
+	border: none;
+	margin: -6px -20px;
+}
+div.heathInfo
+{
+	overflow: hidden;
+	width: 815px;	
+	height: 2305px;
+	margin: 0 auto;	
+	background-color: #fff;	
+	text-align: center;	
+	margin-top: 70px;
+	margin-bottom: 80px;
+	border-radius: 25px;
 }
 
 
@@ -1071,27 +2167,17 @@ ol.carousel-indicators
 	padding: 50px;
 }
 
-.carousel-control-prev
-{
-	margin: 30px;
-	padding: 12px;
-}
 
 .carousel-control-prev-icon
 {
 	padding: 12px;
-}
-
-.carousel-control-next
-{
 	margin: 30px;
-	padding: 12px;
 }
 
 .carousel-control-next-icon
 {
 	padding: 12px;
-	
+	margin: 30px;
 }
 
 
@@ -1099,7 +2185,7 @@ ol.carousel-indicators
 .social-icons-list svg
 {
 	margin-left: -24px;
-	margin-top: 17px;
+	margin-top: 13px;
 }
 
 .social-icons-list
@@ -1111,7 +2197,7 @@ ol.carousel-indicators
 
 .social-icons-list ul
 {
-	margin-left: 100px;
+	margin-left: 170px;
 	padding: 15px;
 	text-align: left;
 }
@@ -1163,13 +2249,15 @@ ol.carousel-indicators
 p.para
 {
 	font-size: 23px;
+	margin-left: 15px;
+	padding: 20px;
 }
 
 .contact-card-body img
 {
 	width: 17vw; 
-	padding: 14px;
-	margin-top: -250px;
+	padding: 12px;
+	margin-top: -320px;
 	margin-right: 30px;
 	float: right;
 }
@@ -1204,7 +2292,7 @@ footer
 
 footer p  
 {
-	font-size: 17px;
+	font-size: 20px;
 }
 
 footer a {
