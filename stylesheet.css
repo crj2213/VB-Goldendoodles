@@ -1,5 +1,5 @@
 /* Mobile Devices*/
-@media (min-width: 576px) and (max-width: 767.99px) {
+@media (min-width: 576px) and (max-width: 766.99px) {
 
 
 body
@@ -344,6 +344,52 @@ p.paras3
 {
 	margin: 0;
 	padding: 10px 0 0;
+}
+
+/***Retiree Dogs***/
+.bxContent1 img 
+{
+	max-width: 150%;
+	margin-left: -20px;
+}
+
+.bxContent1 h4
+{
+	text-align: center;
+}
+
+.bxContent1 p
+{
+	text-align: center;
+	
+}
+
+.bxContent2 img 
+{
+	max-width: 125%;
+}
+
+.bxContent2 h4 
+{
+	text-align: center;
+	margin-left: 30px;
+}
+
+.bxContent2 p
+{
+	text-align: center;
+	margin-left: 25px;
+}
+
+.bxContent3 img 
+{
+	max-width: 100%;
+	margin-left: -8px;
+}
+
+.bxContent3 h4
+{
+	text-align: center;
 }
 
 h1.header-title1
@@ -929,6 +975,53 @@ p.paras3
 	font-size: 18px;
 }
 
+/***Retiree Dogs***/
+.bxContent1 img 
+{
+	max-width: 130%;
+	margin-left: -20px;
+}
+
+.bxContent1 h4
+{
+	text-align: center;
+}
+
+.bxContent1 p
+{
+	text-align: center;
+	
+}
+
+.bxContent2 img 
+{
+	max-width: 160%;
+	margin-left: -15px;
+}
+
+.bxContent2 h4 
+{
+	text-align: center;
+	
+}
+
+.bxContent2 p
+{
+	text-align: center;
+	
+}
+
+.bxContent3 img 
+{
+	max-width: 90%;
+	margin-left: 10px;
+}
+
+.bxContent3 h4
+{
+	text-align: center;
+}
+
 h1.header-title1
 {
 	font-family: Bookman Old Style;
@@ -1468,6 +1561,57 @@ p.paras3
 	margin-left: 90px;
 	padding: 10px 0 0;
 	font-size: 20px;
+}
+
+/***Retiree Dogs***/
+.bxContent1 img 
+{
+	max-width: 160%;
+	margin-left: -20px;
+}
+
+.bxContent1 h4
+{
+	text-align: center;
+}
+
+.bxContent1 p
+{
+	text-align: center;
+	
+}
+
+.bxContent2 img 
+{
+	max-width: 130%;
+	margin-left: 25px;
+}
+
+.bxContent2 h4 
+{
+	margin-left: 70px;
+}
+
+.bxContent2 p
+{
+	margin-left: 60px;
+}
+
+.bxContent3 img 
+{
+	max-width: 75%;
+	margin-left: 50px;
+}
+
+.bxContent3 h4
+{
+	text-align: center;
+}
+
+.bxContent3 p
+{
+	text-align: center;
+	margin-left: 15px;
 }
 
 h1.header-title1
@@ -2254,7 +2398,7 @@ hr
 	width: 160px; 
 	height: 160px; 
 	margin-top: -160px;	
-	margin-left: 1000px;
+	margin-left: 1100px;
 }
 
 footer 
